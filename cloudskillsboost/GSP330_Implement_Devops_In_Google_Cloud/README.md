@@ -43,5 +43,5 @@ gcloud container clusters create my-cluster \
 --num-nodes=3
 ```
 
-# Create a cloud build trigger named sample-app-prod-deploy listens for changes on the master branch and builds a Docker image of your application, pushes it to Google Artifact Registry, and deploys the latest version of the image to the prod namespace in your GKE cluster.
+Create a cloud build trigger named sample-app-prod-deploy listens for changes on the master branch and builds a Docker image of your application, pushes it to Google Artifact Registry, and deploys the latest version of the image to the prod namespace in your GKE cluster.
 
